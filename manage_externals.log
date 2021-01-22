@@ -1,0 +1,1028 @@
+INFO : 2021-01-21 16:46:13 : Beginning of checkout_externals
+INFO : 2021-01-21 16:46:13 : In directory : /home1/07088/tg863871/repositories/CESM2
+INFO : 2021-01-21 16:46:13 : Processing externals description file : Externals.cfg
+INFO : 2021-01-21 16:46:13 : Checking status of externals: 
+INFO : 2021-01-21 16:46:13 : cam, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "cam" does not exist.
+INFO : 2021-01-21 16:46:13 : cice, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "cice" does not exist.
+INFO : 2021-01-21 16:46:13 : cdeps, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "cdeps" does not exist.
+INFO : 2021-01-21 16:46:13 : cime, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "cime" does not exist.
+INFO : 2021-01-21 16:46:13 : cism, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "cism" does not exist.
+INFO : 2021-01-21 16:46:13 : clm, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "clm" does not exist.
+INFO : 2021-01-21 16:46:13 : fms, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "fms" does not exist.
+INFO : 2021-01-21 16:46:13 : mom, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "mom" does not exist.
+INFO : 2021-01-21 16:46:13 : mosart, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "mosart" does not exist.
+INFO : 2021-01-21 16:46:13 : pop, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "pop" does not exist.
+INFO : 2021-01-21 16:46:13 : rtm, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "rtm" does not exist.
+INFO : 2021-01-21 16:46:13 : ww3, 
+INFO : 2021-01-21 16:46:13 : status check: repository directory for "ww3" does not exist.
+INFO : 2021-01-21 16:46:13 : 
+INFO : 2021-01-21 16:46:13 : Checking out externals: 
+INFO : 2021-01-21 16:46:13 : cam, 
+INFO : 2021-01-21 16:46:13 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:13 : git clone --quiet https://github.com/ESCOMP/CAM cam
+DEBUG : 2021-01-21 16:46:28 : 
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git remote --verbose
+DEBUG : 2021-01-21 16:46:28 : origin	https://github.com/ESCOMP/CAM (fetch)
+DEBUG : 2021-01-21 16:46:28 : origin	https://github.com/ESCOMP/CAM (push)
+DEBUG : 2021-01-21 16:46:28 : 
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:46:28 : 
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git show-ref --quiet --verify refs/tags/cam_cesm2_2_rel_02
+DEBUG : 2021-01-21 16:46:28 : 
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git ls-remote --exit-code --heads origin cam_cesm2_2_rel_02
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git show-ref --quiet --verify refs/heads/cam_cesm2_2_rel_02
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git rev-parse --quiet --verify cam_cesm2_2_rel_02^{commit}
+DEBUG : 2021-01-21 16:46:28 : af4623ffd3cb14408cc032832fd483b5c18262e3
+DEBUG : 2021-01-21 16:46:28 : 
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git show-ref --quiet --verify refs/tags/cam_cesm2_2_rel_02
+DEBUG : 2021-01-21 16:46:28 : 
+INFO : 2021-01-21 16:46:28 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:28 : git ls-remote --exit-code --heads origin cam_cesm2_2_rel_02
+INFO : 2021-01-21 16:46:29 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:29 : git show-ref --quiet --verify refs/heads/cam_cesm2_2_rel_02
+INFO : 2021-01-21 16:46:29 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:29 : git rev-parse --quiet --verify cam_cesm2_2_rel_02^{commit}
+DEBUG : 2021-01-21 16:46:29 : af4623ffd3cb14408cc032832fd483b5c18262e3
+DEBUG : 2021-01-21 16:46:29 : 
+INFO : 2021-01-21 16:46:29 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:29 : git checkout --quiet cam_cesm2_2_rel_02
+DEBUG : 2021-01-21 16:46:36 : 
+INFO : 2021-01-21 16:46:36 : cice, 
+INFO : 2021-01-21 16:46:36 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:36 : git clone --quiet https://github.com/ESCOMP/CESM_CICE5 cice
+DEBUG : 2021-01-21 16:46:39 : 
+INFO : 2021-01-21 16:46:39 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:39 : git remote --verbose
+DEBUG : 2021-01-21 16:46:39 : origin	https://github.com/ESCOMP/CESM_CICE5 (fetch)
+DEBUG : 2021-01-21 16:46:39 : origin	https://github.com/ESCOMP/CESM_CICE5 (push)
+DEBUG : 2021-01-21 16:46:39 : 
+INFO : 2021-01-21 16:46:39 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:39 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:46:40 : 
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git show-ref --quiet --verify refs/tags/cice5_20200430
+DEBUG : 2021-01-21 16:46:40 : 
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git ls-remote --exit-code --heads origin cice5_20200430
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git show-ref --quiet --verify refs/heads/cice5_20200430
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git rev-parse --quiet --verify cice5_20200430^{commit}
+DEBUG : 2021-01-21 16:46:40 : f88f3191ba299ada3221ca02655636c5bb9a17d2
+DEBUG : 2021-01-21 16:46:40 : 
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git show-ref --quiet --verify refs/tags/cice5_20200430
+DEBUG : 2021-01-21 16:46:40 : 
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git ls-remote --exit-code --heads origin cice5_20200430
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git show-ref --quiet --verify refs/heads/cice5_20200430
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git rev-parse --quiet --verify cice5_20200430^{commit}
+DEBUG : 2021-01-21 16:46:40 : f88f3191ba299ada3221ca02655636c5bb9a17d2
+DEBUG : 2021-01-21 16:46:40 : 
+INFO : 2021-01-21 16:46:40 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cice
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:40 : git checkout --quiet cice5_20200430
+DEBUG : 2021-01-21 16:46:41 : 
+INFO : 2021-01-21 16:46:42 : cdeps, 
+INFO : 2021-01-21 16:46:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:42 : git clone --quiet https://github.com/ESCOMP/CDEPS.git cdeps
+DEBUG : 2021-01-21 16:46:43 : 
+INFO : 2021-01-21 16:46:43 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:43 : git remote --verbose
+DEBUG : 2021-01-21 16:46:43 : origin	https://github.com/ESCOMP/CDEPS.git (fetch)
+DEBUG : 2021-01-21 16:46:43 : origin	https://github.com/ESCOMP/CDEPS.git (push)
+DEBUG : 2021-01-21 16:46:43 : 
+INFO : 2021-01-21 16:46:43 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:43 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:46:44 : 
+INFO : 2021-01-21 16:46:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:44 : git show-ref --quiet --verify refs/tags/45b7a85
+INFO : 2021-01-21 16:46:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:44 : git ls-remote --exit-code --heads origin 45b7a85
+INFO : 2021-01-21 16:46:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:44 : git show-ref --quiet --verify refs/heads/45b7a85
+INFO : 2021-01-21 16:46:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:44 : git rev-parse --quiet --verify 45b7a85^{commit}
+DEBUG : 2021-01-21 16:46:44 : 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+DEBUG : 2021-01-21 16:46:44 : 
+INFO : 2021-01-21 16:46:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:44 : git checkout --quiet 45b7a85
+DEBUG : 2021-01-21 16:46:44 : 
+INFO : 2021-01-21 16:46:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:44 : git submodule update --init --recursive
+DEBUG : 2021-01-21 16:46:49 : Submodule 'fox' (https://github.com/ESMCI/fox.git) registered for path 'fox'
+DEBUG : 2021-01-21 16:46:49 : Cloning into '/home1/07088/tg863871/repositories/CESM2/components/cdeps/fox'...
+DEBUG : 2021-01-21 16:46:49 : Submodule path 'fox': checked out '7b9488446b193192dd3f0378541e71099cb4e8a8'
+DEBUG : 2021-01-21 16:46:49 : 
+INFO : 2021-01-21 16:46:49 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cdeps
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:49 : git submodule status
+DEBUG : 2021-01-21 16:46:49 :  7b9488446b193192dd3f0378541e71099cb4e8a8 fox (4.1.2-95-g7b94884)
+DEBUG : 2021-01-21 16:46:49 : 
+INFO : 2021-01-21 16:46:49 : cime, 
+INFO : 2021-01-21 16:46:49 : In directory: /home1/07088/tg863871/repositories/CESM2
+execute_subprocess running command:
+INFO : 2021-01-21 16:46:49 : git clone --quiet https://github.com/ESMCI/cime cime
+DEBUG : 2021-01-21 16:47:12 : 
+INFO : 2021-01-21 16:47:12 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:12 : git remote --verbose
+DEBUG : 2021-01-21 16:47:12 : origin	https://github.com/ESMCI/cime (fetch)
+DEBUG : 2021-01-21 16:47:12 : origin	https://github.com/ESMCI/cime (push)
+DEBUG : 2021-01-21 16:47:12 : 
+INFO : 2021-01-21 16:47:12 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:12 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:13 : 
+INFO : 2021-01-21 16:47:13 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:13 : git show-ref --quiet --verify refs/tags/cime5.8.32
+DEBUG : 2021-01-21 16:47:13 : 
+INFO : 2021-01-21 16:47:13 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:13 : git ls-remote --exit-code --heads origin cime5.8.32
+INFO : 2021-01-21 16:47:13 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:13 : git show-ref --quiet --verify refs/heads/cime5.8.32
+INFO : 2021-01-21 16:47:13 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:13 : git rev-parse --quiet --verify cime5.8.32^{commit}
+DEBUG : 2021-01-21 16:47:13 : 63f3ea8a4892d050d37805891c6f6a06635c68d8
+DEBUG : 2021-01-21 16:47:13 : 
+INFO : 2021-01-21 16:47:13 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:13 : git show-ref --quiet --verify refs/tags/cime5.8.32
+DEBUG : 2021-01-21 16:47:13 : 
+INFO : 2021-01-21 16:47:13 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:13 : git ls-remote --exit-code --heads origin cime5.8.32
+INFO : 2021-01-21 16:47:14 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:14 : git show-ref --quiet --verify refs/heads/cime5.8.32
+INFO : 2021-01-21 16:47:14 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:14 : git rev-parse --quiet --verify cime5.8.32^{commit}
+DEBUG : 2021-01-21 16:47:14 : 63f3ea8a4892d050d37805891c6f6a06635c68d8
+DEBUG : 2021-01-21 16:47:14 : 
+INFO : 2021-01-21 16:47:14 : In directory: /home1/07088/tg863871/repositories/CESM2/cime
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:14 : git checkout --quiet cime5.8.32
+DEBUG : 2021-01-21 16:47:15 : 
+INFO : 2021-01-21 16:47:15 : cism, 
+INFO : 2021-01-21 16:47:15 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:15 : git clone --quiet https://github.com/ESCOMP/CISM-wrapper cism
+DEBUG : 2021-01-21 16:47:17 : 
+INFO : 2021-01-21 16:47:17 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:17 : git remote --verbose
+DEBUG : 2021-01-21 16:47:17 : origin	https://github.com/ESCOMP/CISM-wrapper (fetch)
+DEBUG : 2021-01-21 16:47:17 : origin	https://github.com/ESCOMP/CISM-wrapper (push)
+DEBUG : 2021-01-21 16:47:17 : 
+INFO : 2021-01-21 16:47:17 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:17 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:18 : 
+INFO : 2021-01-21 16:47:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:18 : git show-ref --quiet --verify refs/tags/cism2_1_69
+DEBUG : 2021-01-21 16:47:18 : 
+INFO : 2021-01-21 16:47:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:18 : git ls-remote --exit-code --heads origin cism2_1_69
+INFO : 2021-01-21 16:47:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:18 : git show-ref --quiet --verify refs/heads/cism2_1_69
+INFO : 2021-01-21 16:47:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:18 : git rev-parse --quiet --verify cism2_1_69^{commit}
+DEBUG : 2021-01-21 16:47:18 : 3b00bbbf292b87a5b482a571e2491b12d6843805
+DEBUG : 2021-01-21 16:47:18 : 
+INFO : 2021-01-21 16:47:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:18 : git show-ref --quiet --verify refs/tags/cism2_1_69
+DEBUG : 2021-01-21 16:47:18 : 
+INFO : 2021-01-21 16:47:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:18 : git ls-remote --exit-code --heads origin cism2_1_69
+INFO : 2021-01-21 16:47:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:19 : git show-ref --quiet --verify refs/heads/cism2_1_69
+INFO : 2021-01-21 16:47:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:19 : git rev-parse --quiet --verify cism2_1_69^{commit}
+DEBUG : 2021-01-21 16:47:19 : 3b00bbbf292b87a5b482a571e2491b12d6843805
+DEBUG : 2021-01-21 16:47:19 : 
+INFO : 2021-01-21 16:47:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:19 : git checkout --quiet cism2_1_69
+DEBUG : 2021-01-21 16:47:19 : 
+INFO : 2021-01-21 16:47:19 : clm, 
+INFO : 2021-01-21 16:47:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:19 : git clone --quiet https://github.com/ESCOMP/CTSM clm
+DEBUG : 2021-01-21 16:47:33 : 
+INFO : 2021-01-21 16:47:33 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:33 : git remote --verbose
+DEBUG : 2021-01-21 16:47:33 : origin	https://github.com/ESCOMP/CTSM (fetch)
+DEBUG : 2021-01-21 16:47:33 : origin	https://github.com/ESCOMP/CTSM (push)
+DEBUG : 2021-01-21 16:47:33 : 
+INFO : 2021-01-21 16:47:33 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:33 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:34 : 
+INFO : 2021-01-21 16:47:34 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:34 : git show-ref --quiet --verify refs/tags/release-cesm2.2.01
+DEBUG : 2021-01-21 16:47:34 : 
+INFO : 2021-01-21 16:47:34 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:34 : git ls-remote --exit-code --heads origin release-cesm2.2.01
+INFO : 2021-01-21 16:47:34 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:34 : git show-ref --quiet --verify refs/heads/release-cesm2.2.01
+INFO : 2021-01-21 16:47:34 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:34 : git rev-parse --quiet --verify release-cesm2.2.01^{commit}
+DEBUG : 2021-01-21 16:47:34 : 5f1c35fb843ca7a6b3a86905f6870a4a6b6ad93a
+DEBUG : 2021-01-21 16:47:34 : 
+INFO : 2021-01-21 16:47:34 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:34 : git show-ref --quiet --verify refs/tags/release-cesm2.2.01
+DEBUG : 2021-01-21 16:47:34 : 
+INFO : 2021-01-21 16:47:34 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:34 : git ls-remote --exit-code --heads origin release-cesm2.2.01
+INFO : 2021-01-21 16:47:35 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:35 : git show-ref --quiet --verify refs/heads/release-cesm2.2.01
+INFO : 2021-01-21 16:47:35 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:35 : git rev-parse --quiet --verify release-cesm2.2.01^{commit}
+DEBUG : 2021-01-21 16:47:35 : 5f1c35fb843ca7a6b3a86905f6870a4a6b6ad93a
+DEBUG : 2021-01-21 16:47:35 : 
+INFO : 2021-01-21 16:47:35 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:35 : git checkout --quiet release-cesm2.2.01
+DEBUG : 2021-01-21 16:47:35 : 
+INFO : 2021-01-21 16:47:35 : mosart, 
+INFO : 2021-01-21 16:47:35 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:35 : git clone --quiet https://github.com/ESCOMP/MOSART mosart
+DEBUG : 2021-01-21 16:47:36 : 
+INFO : 2021-01-21 16:47:36 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:36 : git remote --verbose
+DEBUG : 2021-01-21 16:47:36 : origin	https://github.com/ESCOMP/MOSART (fetch)
+DEBUG : 2021-01-21 16:47:36 : origin	https://github.com/ESCOMP/MOSART (push)
+DEBUG : 2021-01-21 16:47:36 : 
+INFO : 2021-01-21 16:47:36 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:36 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:37 : 
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git show-ref --quiet --verify refs/tags/mosart1_0_37
+DEBUG : 2021-01-21 16:47:37 : 
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git ls-remote --exit-code --heads origin mosart1_0_37
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git show-ref --quiet --verify refs/heads/mosart1_0_37
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git rev-parse --quiet --verify mosart1_0_37^{commit}
+DEBUG : 2021-01-21 16:47:37 : ec342bdfbaae6ed3972766f912d6b7405946252b
+DEBUG : 2021-01-21 16:47:37 : 
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git show-ref --quiet --verify refs/tags/mosart1_0_37
+DEBUG : 2021-01-21 16:47:37 : 
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git ls-remote --exit-code --heads origin mosart1_0_37
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git show-ref --quiet --verify refs/heads/mosart1_0_37
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git rev-parse --quiet --verify mosart1_0_37^{commit}
+DEBUG : 2021-01-21 16:47:37 : ec342bdfbaae6ed3972766f912d6b7405946252b
+DEBUG : 2021-01-21 16:47:37 : 
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components/mosart
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git checkout --quiet mosart1_0_37
+DEBUG : 2021-01-21 16:47:37 : 
+INFO : 2021-01-21 16:47:37 : pop, 
+INFO : 2021-01-21 16:47:37 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:37 : git clone --quiet https://github.com/ESCOMP/POP2-CESM pop
+DEBUG : 2021-01-21 16:47:41 : 
+INFO : 2021-01-21 16:47:41 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:41 : git remote --verbose
+DEBUG : 2021-01-21 16:47:41 : origin	https://github.com/ESCOMP/POP2-CESM (fetch)
+DEBUG : 2021-01-21 16:47:41 : origin	https://github.com/ESCOMP/POP2-CESM (push)
+DEBUG : 2021-01-21 16:47:41 : 
+INFO : 2021-01-21 16:47:41 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:41 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:41 : 
+INFO : 2021-01-21 16:47:41 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:41 : git show-ref --quiet --verify refs/tags/cesm_pop_2_1_20200730
+DEBUG : 2021-01-21 16:47:41 : 
+INFO : 2021-01-21 16:47:41 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:41 : git ls-remote --exit-code --heads origin cesm_pop_2_1_20200730
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git show-ref --quiet --verify refs/heads/cesm_pop_2_1_20200730
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git rev-parse --quiet --verify cesm_pop_2_1_20200730^{commit}
+DEBUG : 2021-01-21 16:47:42 : 974a0320c5e4262e2ec479314cedb7df51029dd8
+DEBUG : 2021-01-21 16:47:42 : 
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git show-ref --quiet --verify refs/tags/cesm_pop_2_1_20200730
+DEBUG : 2021-01-21 16:47:42 : 
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git ls-remote --exit-code --heads origin cesm_pop_2_1_20200730
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git show-ref --quiet --verify refs/heads/cesm_pop_2_1_20200730
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git rev-parse --quiet --verify cesm_pop_2_1_20200730^{commit}
+DEBUG : 2021-01-21 16:47:42 : 974a0320c5e4262e2ec479314cedb7df51029dd8
+DEBUG : 2021-01-21 16:47:42 : 
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git checkout --quiet cesm_pop_2_1_20200730
+DEBUG : 2021-01-21 16:47:42 : 
+INFO : 2021-01-21 16:47:42 : rtm, 
+INFO : 2021-01-21 16:47:42 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:42 : git clone --quiet https://github.com/ESCOMP/RTM rtm
+DEBUG : 2021-01-21 16:47:43 : 
+INFO : 2021-01-21 16:47:43 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:43 : git remote --verbose
+DEBUG : 2021-01-21 16:47:43 : origin	https://github.com/ESCOMP/RTM (fetch)
+DEBUG : 2021-01-21 16:47:43 : origin	https://github.com/ESCOMP/RTM (push)
+DEBUG : 2021-01-21 16:47:43 : 
+INFO : 2021-01-21 16:47:43 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:43 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:43 : 
+INFO : 2021-01-21 16:47:43 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:43 : git show-ref --quiet --verify refs/tags/rtm1_0_72
+DEBUG : 2021-01-21 16:47:43 : 
+INFO : 2021-01-21 16:47:43 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:43 : git ls-remote --exit-code --heads origin rtm1_0_72
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git show-ref --quiet --verify refs/heads/rtm1_0_72
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git rev-parse --quiet --verify rtm1_0_72^{commit}
+DEBUG : 2021-01-21 16:47:44 : d1de617f60c1aef9e71e7c5295cc79dff8cf274f
+DEBUG : 2021-01-21 16:47:44 : 
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git show-ref --quiet --verify refs/tags/rtm1_0_72
+DEBUG : 2021-01-21 16:47:44 : 
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git ls-remote --exit-code --heads origin rtm1_0_72
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git show-ref --quiet --verify refs/heads/rtm1_0_72
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git rev-parse --quiet --verify rtm1_0_72^{commit}
+DEBUG : 2021-01-21 16:47:44 : d1de617f60c1aef9e71e7c5295cc79dff8cf274f
+DEBUG : 2021-01-21 16:47:44 : 
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components/rtm
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git checkout --quiet rtm1_0_72
+DEBUG : 2021-01-21 16:47:44 : 
+INFO : 2021-01-21 16:47:44 : ww3, 
+INFO : 2021-01-21 16:47:44 : In directory: /home1/07088/tg863871/repositories/CESM2/components
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:44 : git clone --quiet https://github.com/ESCOMP/WW3-CESM ww3
+DEBUG : 2021-01-21 16:47:45 : 
+INFO : 2021-01-21 16:47:45 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:45 : git remote --verbose
+DEBUG : 2021-01-21 16:47:45 : origin	https://github.com/ESCOMP/WW3-CESM (fetch)
+DEBUG : 2021-01-21 16:47:45 : origin	https://github.com/ESCOMP/WW3-CESM (push)
+DEBUG : 2021-01-21 16:47:45 : 
+INFO : 2021-01-21 16:47:45 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:45 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:45 : 
+INFO : 2021-01-21 16:47:45 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:45 : git show-ref --quiet --verify refs/tags/ww3_200710
+DEBUG : 2021-01-21 16:47:45 : 
+INFO : 2021-01-21 16:47:45 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:45 : git ls-remote --exit-code --heads origin ww3_200710
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git show-ref --quiet --verify refs/heads/ww3_200710
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git rev-parse --quiet --verify ww3_200710^{commit}
+DEBUG : 2021-01-21 16:47:46 : 1992bafe30b40e72c9083c6c1104aeef010b7655
+DEBUG : 2021-01-21 16:47:46 : 
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git show-ref --quiet --verify refs/tags/ww3_200710
+DEBUG : 2021-01-21 16:47:46 : 
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git ls-remote --exit-code --heads origin ww3_200710
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git show-ref --quiet --verify refs/heads/ww3_200710
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git rev-parse --quiet --verify ww3_200710^{commit}
+DEBUG : 2021-01-21 16:47:46 : 1992bafe30b40e72c9083c6c1104aeef010b7655
+DEBUG : 2021-01-21 16:47:46 : 
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2/components/ww3
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : git checkout --quiet ww3_200710
+DEBUG : 2021-01-21 16:47:46 : 
+INFO : 2021-01-21 16:47:46 : 
+INFO : 2021-01-21 16:47:46 : In directory : /home1/07088/tg863871/repositories/CESM2/components/cam
+INFO : 2021-01-21 16:47:46 : Processing externals description file : Externals_CAM.cfg
+INFO : 2021-01-21 16:47:46 : Checking out externals: 
+INFO : 2021-01-21 16:47:46 : chem_proc, 
+INFO : 2021-01-21 16:47:46 : In directory: /home1/07088/tg863871/repositories/CESM2
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:46 : svn checkout --quiet https://svn-ccsm-models.cgd.ucar.edu/tools/proc_atm/chem_proc/release_tags/chem_proc5_0_04 /home1/07088/tg863871/repositories/CESM2/components/cam/chem_proc
+DEBUG : 2021-01-21 16:47:50 : 
+INFO : 2021-01-21 16:47:50 : carma, 
+INFO : 2021-01-21 16:47:50 : In directory: /home1/07088/tg863871/repositories/CESM2
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:50 : svn checkout --quiet https://svn-ccsm-models.cgd.ucar.edu/carma/release_tags/carma3_49_rel /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/carma/base
+DEBUG : 2021-01-21 16:47:52 : 
+INFO : 2021-01-21 16:47:52 : cosp2, 
+INFO : 2021-01-21 16:47:52 : In directory: /home1/07088/tg863871/repositories/CESM2
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:52 : svn checkout --quiet https://github.com/CFMIP/COSPv2.0/tags/v2.1.4cesm/src /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/cosp2/src
+DEBUG : 2021-01-21 16:47:55 : 
+INFO : 2021-01-21 16:47:55 : clubb, 
+INFO : 2021-01-21 16:47:55 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:55 : git clone --quiet https://github.com/ESCOMP/CLUBB_CESM clubb
+DEBUG : 2021-01-21 16:47:55 : 
+INFO : 2021-01-21 16:47:55 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:55 : git remote --verbose
+DEBUG : 2021-01-21 16:47:55 : origin	https://github.com/ESCOMP/CLUBB_CESM (fetch)
+DEBUG : 2021-01-21 16:47:55 : origin	https://github.com/ESCOMP/CLUBB_CESM (push)
+DEBUG : 2021-01-21 16:47:55 : 
+INFO : 2021-01-21 16:47:55 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:55 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:56 : 
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git show-ref --quiet --verify refs/tags/clubb_release_b76a124_20200220_c20200320
+DEBUG : 2021-01-21 16:47:56 : 
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git ls-remote --exit-code --heads origin clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git show-ref --quiet --verify refs/heads/clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git rev-parse --quiet --verify clubb_release_b76a124_20200220_c20200320^{commit}
+DEBUG : 2021-01-21 16:47:56 : f6fd53041aac4aa40238df86d30a6aff0e74a8fb
+DEBUG : 2021-01-21 16:47:56 : 
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git show-ref --quiet --verify refs/tags/clubb_release_b76a124_20200220_c20200320
+DEBUG : 2021-01-21 16:47:56 : 
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git ls-remote --exit-code --heads origin clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git show-ref --quiet --verify refs/heads/clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git rev-parse --quiet --verify clubb_release_b76a124_20200220_c20200320^{commit}
+DEBUG : 2021-01-21 16:47:56 : f6fd53041aac4aa40238df86d30a6aff0e74a8fb
+DEBUG : 2021-01-21 16:47:56 : 
+INFO : 2021-01-21 16:47:56 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/clubb
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:56 : git checkout --quiet clubb_release_b76a124_20200220_c20200320
+DEBUG : 2021-01-21 16:47:57 : 
+INFO : 2021-01-21 16:47:57 : silhs, 
+INFO : 2021-01-21 16:47:57 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:57 : git clone --quiet https://github.com/ESCOMP/SILHS_CESM silhs
+DEBUG : 2021-01-21 16:47:57 : 
+INFO : 2021-01-21 16:47:57 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:57 : git remote --verbose
+DEBUG : 2021-01-21 16:47:57 : origin	https://github.com/ESCOMP/SILHS_CESM (fetch)
+DEBUG : 2021-01-21 16:47:57 : origin	https://github.com/ESCOMP/SILHS_CESM (push)
+DEBUG : 2021-01-21 16:47:57 : 
+INFO : 2021-01-21 16:47:57 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:57 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:58 : 
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git show-ref --quiet --verify refs/tags/silhs_clubb_release_b76a124_20200220_c20200320
+DEBUG : 2021-01-21 16:47:58 : 
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git ls-remote --exit-code --heads origin silhs_clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git show-ref --quiet --verify refs/heads/silhs_clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git rev-parse --quiet --verify silhs_clubb_release_b76a124_20200220_c20200320^{commit}
+DEBUG : 2021-01-21 16:47:58 : bc5d055e51a09aada6d5a402b9f9511f9092ae39
+DEBUG : 2021-01-21 16:47:58 : 
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git show-ref --quiet --verify refs/tags/silhs_clubb_release_b76a124_20200220_c20200320
+DEBUG : 2021-01-21 16:47:58 : 
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git ls-remote --exit-code --heads origin silhs_clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git show-ref --quiet --verify refs/heads/silhs_clubb_release_b76a124_20200220_c20200320
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git rev-parse --quiet --verify silhs_clubb_release_b76a124_20200220_c20200320^{commit}
+DEBUG : 2021-01-21 16:47:58 : bc5d055e51a09aada6d5a402b9f9511f9092ae39
+DEBUG : 2021-01-21 16:47:58 : 
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/silhs
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git checkout --quiet silhs_clubb_release_b76a124_20200220_c20200320
+DEBUG : 2021-01-21 16:47:58 : 
+INFO : 2021-01-21 16:47:58 : pumas, 
+INFO : 2021-01-21 16:47:58 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:58 : git clone --quiet https://github.com/ESCOMP/PUMAS pumas
+DEBUG : 2021-01-21 16:47:59 : 
+INFO : 2021-01-21 16:47:59 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:59 : git remote --verbose
+DEBUG : 2021-01-21 16:47:59 : origin	https://github.com/ESCOMP/PUMAS (fetch)
+DEBUG : 2021-01-21 16:47:59 : origin	https://github.com/ESCOMP/PUMAS (push)
+DEBUG : 2021-01-21 16:47:59 : 
+INFO : 2021-01-21 16:47:59 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:59 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:47:59 : 
+INFO : 2021-01-21 16:47:59 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:59 : git show-ref --quiet --verify refs/tags/pumas_cam-release_v1.3
+DEBUG : 2021-01-21 16:47:59 : 
+INFO : 2021-01-21 16:47:59 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:47:59 : git ls-remote --exit-code --heads origin pumas_cam-release_v1.3
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git show-ref --quiet --verify refs/heads/pumas_cam-release_v1.3
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git rev-parse --quiet --verify pumas_cam-release_v1.3^{commit}
+DEBUG : 2021-01-21 16:48:00 : c1dd115800257fb8ccb34a5a2b665b813f439e51
+DEBUG : 2021-01-21 16:48:00 : 
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git show-ref --quiet --verify refs/tags/pumas_cam-release_v1.3
+DEBUG : 2021-01-21 16:48:00 : 
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git ls-remote --exit-code --heads origin pumas_cam-release_v1.3
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git show-ref --quiet --verify refs/heads/pumas_cam-release_v1.3
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git rev-parse --quiet --verify pumas_cam-release_v1.3^{commit}
+DEBUG : 2021-01-21 16:48:00 : c1dd115800257fb8ccb34a5a2b665b813f439e51
+DEBUG : 2021-01-21 16:48:00 : 
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/physics/pumas
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git checkout --quiet pumas_cam-release_v1.3
+DEBUG : 2021-01-21 16:48:00 : 
+INFO : 2021-01-21 16:48:00 : atmos_phys, 
+INFO : 2021-01-21 16:48:00 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:00 : git clone --quiet https://github.com/NCAR/atmospheric_physics atmos_phys
+DEBUG : 2021-01-21 16:48:01 : 
+INFO : 2021-01-21 16:48:01 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:01 : git remote --verbose
+DEBUG : 2021-01-21 16:48:01 : origin	https://github.com/NCAR/atmospheric_physics (fetch)
+DEBUG : 2021-01-21 16:48:01 : origin	https://github.com/NCAR/atmospheric_physics (push)
+DEBUG : 2021-01-21 16:48:01 : 
+INFO : 2021-01-21 16:48:01 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:01 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:01 : 
+INFO : 2021-01-21 16:48:01 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:01 : git show-ref --quiet --verify refs/tags/version0_00_007
+DEBUG : 2021-01-21 16:48:01 : 
+INFO : 2021-01-21 16:48:01 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:01 : git ls-remote --exit-code --heads origin version0_00_007
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git show-ref --quiet --verify refs/heads/version0_00_007
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git rev-parse --quiet --verify version0_00_007^{commit}
+DEBUG : 2021-01-21 16:48:02 : 9223a4b29f7225245dc26aa26a974e375def89a3
+DEBUG : 2021-01-21 16:48:02 : 
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git show-ref --quiet --verify refs/tags/version0_00_007
+DEBUG : 2021-01-21 16:48:02 : 
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git ls-remote --exit-code --heads origin version0_00_007
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git show-ref --quiet --verify refs/heads/version0_00_007
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git rev-parse --quiet --verify version0_00_007^{commit}
+DEBUG : 2021-01-21 16:48:02 : 9223a4b29f7225245dc26aa26a974e375def89a3
+DEBUG : 2021-01-21 16:48:02 : 
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/atmos_phys
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git checkout --quiet version0_00_007
+DEBUG : 2021-01-21 16:48:02 : 
+INFO : 2021-01-21 16:48:02 : atmos_cubed_sphere, 
+INFO : 2021-01-21 16:48:02 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:02 : git clone --quiet https://github.com/ESCOMP/FV3_CESM.git atmos_cubed_sphere
+DEBUG : 2021-01-21 16:48:03 : 
+INFO : 2021-01-21 16:48:03 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:03 : git remote --verbose
+DEBUG : 2021-01-21 16:48:03 : origin	https://github.com/ESCOMP/FV3_CESM.git (fetch)
+DEBUG : 2021-01-21 16:48:03 : origin	https://github.com/ESCOMP/FV3_CESM.git (push)
+DEBUG : 2021-01-21 16:48:03 : 
+INFO : 2021-01-21 16:48:03 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:03 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:04 : 
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git show-ref --quiet --verify refs/tags/fv3_cesm.04
+DEBUG : 2021-01-21 16:48:04 : 
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git ls-remote --exit-code --heads origin fv3_cesm.04
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git show-ref --quiet --verify refs/heads/fv3_cesm.04
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git rev-parse --quiet --verify fv3_cesm.04^{commit}
+DEBUG : 2021-01-21 16:48:04 : 05fcca8d04c2c15e7af4c0db83829c2f5fa5a2d4
+DEBUG : 2021-01-21 16:48:04 : 
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git show-ref --quiet --verify refs/tags/fv3_cesm.04
+DEBUG : 2021-01-21 16:48:04 : 
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git ls-remote --exit-code --heads origin fv3_cesm.04
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git show-ref --quiet --verify refs/heads/fv3_cesm.04
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git rev-parse --quiet --verify fv3_cesm.04^{commit}
+DEBUG : 2021-01-21 16:48:04 : 05fcca8d04c2c15e7af4c0db83829c2f5fa5a2d4
+DEBUG : 2021-01-21 16:48:04 : 
+INFO : 2021-01-21 16:48:04 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cam/src/dynamics/fv3/atmos_cubed_sphere
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:04 : git checkout --quiet fv3_cesm.04
+DEBUG : 2021-01-21 16:48:05 : 
+INFO : 2021-01-21 16:48:05 : 
+INFO : 2021-01-21 16:48:05 : In directory : /home1/07088/tg863871/repositories/CESM2/cime
+INFO : 2021-01-21 16:48:05 : Processing externals description file : ../Externals_cime.cfg
+INFO : 2021-01-21 16:48:05 : Checking out externals: 
+INFO : 2021-01-21 16:48:05 : 
+INFO : 2021-01-21 16:48:05 : In directory : /home1/07088/tg863871/repositories/CESM2/components/cism
+INFO : 2021-01-21 16:48:05 : Processing externals description file : Externals_CISM.cfg
+INFO : 2021-01-21 16:48:05 : Checking out externals: 
+INFO : 2021-01-21 16:48:05 : source_cism, 
+INFO : 2021-01-21 16:48:05 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:05 : git clone --quiet https://github.com/ESCOMP/cism source_cism
+DEBUG : 2021-01-21 16:48:08 : 
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git remote --verbose
+DEBUG : 2021-01-21 16:48:08 : origin	https://github.com/ESCOMP/cism (fetch)
+DEBUG : 2021-01-21 16:48:08 : origin	https://github.com/ESCOMP/cism (push)
+DEBUG : 2021-01-21 16:48:08 : 
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:08 : 
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git show-ref --quiet --verify refs/tags/f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git ls-remote --exit-code --heads origin f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git show-ref --quiet --verify refs/heads/f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git rev-parse --quiet --verify f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7^{commit}
+DEBUG : 2021-01-21 16:48:08 : f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+DEBUG : 2021-01-21 16:48:08 : 
+INFO : 2021-01-21 16:48:08 : In directory: /home1/07088/tg863871/repositories/CESM2/components/cism/source_cism
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:08 : git checkout --quiet f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+DEBUG : 2021-01-21 16:48:09 : 
+INFO : 2021-01-21 16:48:09 : 
+INFO : 2021-01-21 16:48:09 : In directory : /home1/07088/tg863871/repositories/CESM2/components/clm
+INFO : 2021-01-21 16:48:09 : Processing externals description file : Externals_CLM.cfg
+INFO : 2021-01-21 16:48:09 : Checking out externals: 
+INFO : 2021-01-21 16:48:09 : fates, 
+INFO : 2021-01-21 16:48:09 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:09 : git clone --quiet https://github.com/NGEET/fates fates
+DEBUG : 2021-01-21 16:48:15 : 
+INFO : 2021-01-21 16:48:15 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:15 : git remote --verbose
+DEBUG : 2021-01-21 16:48:15 : origin	https://github.com/NGEET/fates (fetch)
+DEBUG : 2021-01-21 16:48:15 : origin	https://github.com/NGEET/fates (push)
+DEBUG : 2021-01-21 16:48:15 : 
+INFO : 2021-01-21 16:48:15 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:15 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:15 : 
+INFO : 2021-01-21 16:48:15 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:15 : git show-ref --quiet --verify refs/tags/sci.1.30.0_api.8.0.0
+DEBUG : 2021-01-21 16:48:15 : 
+INFO : 2021-01-21 16:48:15 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:15 : git ls-remote --exit-code --heads origin sci.1.30.0_api.8.0.0
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git show-ref --quiet --verify refs/heads/sci.1.30.0_api.8.0.0
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git rev-parse --quiet --verify sci.1.30.0_api.8.0.0^{commit}
+DEBUG : 2021-01-21 16:48:16 : 3f6749d471e8766a212dd0a2b0c4c95aacd97f65
+DEBUG : 2021-01-21 16:48:16 : 
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git show-ref --quiet --verify refs/tags/sci.1.30.0_api.8.0.0
+DEBUG : 2021-01-21 16:48:16 : 
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git ls-remote --exit-code --heads origin sci.1.30.0_api.8.0.0
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git show-ref --quiet --verify refs/heads/sci.1.30.0_api.8.0.0
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git rev-parse --quiet --verify sci.1.30.0_api.8.0.0^{commit}
+DEBUG : 2021-01-21 16:48:16 : 3f6749d471e8766a212dd0a2b0c4c95aacd97f65
+DEBUG : 2021-01-21 16:48:16 : 
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/src/fates
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git checkout --quiet sci.1.30.0_api.8.0.0
+DEBUG : 2021-01-21 16:48:16 : 
+INFO : 2021-01-21 16:48:16 : ptclm, 
+INFO : 2021-01-21 16:48:16 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:16 : git clone --quiet https://github.com/ESCOMP/PTCLM PTCLM
+DEBUG : 2021-01-21 16:48:18 : 
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git remote --verbose
+DEBUG : 2021-01-21 16:48:18 : origin	https://github.com/ESCOMP/PTCLM (fetch)
+DEBUG : 2021-01-21 16:48:18 : origin	https://github.com/ESCOMP/PTCLM (push)
+DEBUG : 2021-01-21 16:48:18 : 
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:18 : 
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git show-ref --quiet --verify refs/tags/PTCLM2_20200902
+DEBUG : 2021-01-21 16:48:18 : 
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git ls-remote --exit-code --heads origin PTCLM2_20200902
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git show-ref --quiet --verify refs/heads/PTCLM2_20200902
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git rev-parse --quiet --verify PTCLM2_20200902^{commit}
+DEBUG : 2021-01-21 16:48:18 : 9ae5f22e31903330936442b29865fb015379be48
+DEBUG : 2021-01-21 16:48:18 : 
+INFO : 2021-01-21 16:48:18 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:18 : git show-ref --quiet --verify refs/tags/PTCLM2_20200902
+DEBUG : 2021-01-21 16:48:19 : 
+INFO : 2021-01-21 16:48:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:19 : git ls-remote --exit-code --heads origin PTCLM2_20200902
+INFO : 2021-01-21 16:48:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:19 : git show-ref --quiet --verify refs/heads/PTCLM2_20200902
+INFO : 2021-01-21 16:48:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:19 : git rev-parse --quiet --verify PTCLM2_20200902^{commit}
+DEBUG : 2021-01-21 16:48:19 : 9ae5f22e31903330936442b29865fb015379be48
+DEBUG : 2021-01-21 16:48:19 : 
+INFO : 2021-01-21 16:48:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/clm/tools/PTCLM
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:19 : git checkout --quiet PTCLM2_20200902
+DEBUG : 2021-01-21 16:48:19 : 
+INFO : 2021-01-21 16:48:19 : 
+INFO : 2021-01-21 16:48:19 : In directory : /home1/07088/tg863871/repositories/CESM2/components/pop
+INFO : 2021-01-21 16:48:19 : Processing externals description file : Externals_POP.cfg
+INFO : 2021-01-21 16:48:19 : Checking out externals: 
+INFO : 2021-01-21 16:48:19 : cvmix, 
+INFO : 2021-01-21 16:48:19 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:19 : git clone --quiet https://github.com/CVMix/CVMix-src CVMix
+DEBUG : 2021-01-21 16:48:20 : 
+INFO : 2021-01-21 16:48:20 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:20 : git remote --verbose
+DEBUG : 2021-01-21 16:48:20 : origin	https://github.com/CVMix/CVMix-src (fetch)
+DEBUG : 2021-01-21 16:48:20 : origin	https://github.com/CVMix/CVMix-src (push)
+DEBUG : 2021-01-21 16:48:20 : 
+INFO : 2021-01-21 16:48:20 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:20 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:21 : 
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git show-ref --quiet --verify refs/tags/v0.98-beta
+DEBUG : 2021-01-21 16:48:21 : 
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git ls-remote --exit-code --heads origin v0.98-beta
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git show-ref --quiet --verify refs/heads/v0.98-beta
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git rev-parse --quiet --verify v0.98-beta^{commit}
+DEBUG : 2021-01-21 16:48:21 : 9423197f894112edfcb1502245f7d7b873d551f9
+DEBUG : 2021-01-21 16:48:21 : 
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git show-ref --quiet --verify refs/tags/v0.98-beta
+DEBUG : 2021-01-21 16:48:21 : 
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git ls-remote --exit-code --heads origin v0.98-beta
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git show-ref --quiet --verify refs/heads/v0.98-beta
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git rev-parse --quiet --verify v0.98-beta^{commit}
+DEBUG : 2021-01-21 16:48:21 : 9423197f894112edfcb1502245f7d7b873d551f9
+DEBUG : 2021-01-21 16:48:21 : 
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/CVMix
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git checkout --quiet v0.98-beta
+DEBUG : 2021-01-21 16:48:21 : 
+INFO : 2021-01-21 16:48:21 : marbl, 
+INFO : 2021-01-21 16:48:21 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:21 : git clone --quiet https://github.com/marbl-ecosys/MARBL MARBL
+DEBUG : 2021-01-21 16:48:23 : 
+INFO : 2021-01-21 16:48:23 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:23 : git remote --verbose
+DEBUG : 2021-01-21 16:48:23 : origin	https://github.com/marbl-ecosys/MARBL (fetch)
+DEBUG : 2021-01-21 16:48:23 : origin	https://github.com/marbl-ecosys/MARBL (push)
+DEBUG : 2021-01-21 16:48:23 : 
+INFO : 2021-01-21 16:48:23 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:23 : git fetch --quiet --tags origin
+DEBUG : 2021-01-21 16:48:23 : 
+INFO : 2021-01-21 16:48:23 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:23 : git show-ref --quiet --verify refs/tags/marbl0.39.1
+DEBUG : 2021-01-21 16:48:23 : 
+INFO : 2021-01-21 16:48:23 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:23 : git ls-remote --exit-code --heads origin marbl0.39.1
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git show-ref --quiet --verify refs/heads/marbl0.39.1
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git rev-parse --quiet --verify marbl0.39.1^{commit}
+DEBUG : 2021-01-21 16:48:24 : 6b2a5e41dc5b0faaf9b600c96432e2487515e878
+DEBUG : 2021-01-21 16:48:24 : 
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git show-ref --quiet --verify refs/tags/marbl0.39.1
+DEBUG : 2021-01-21 16:48:24 : 
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git ls-remote --exit-code --heads origin marbl0.39.1
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git show-ref --quiet --verify refs/heads/marbl0.39.1
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git rev-parse --quiet --verify marbl0.39.1^{commit}
+DEBUG : 2021-01-21 16:48:24 : 6b2a5e41dc5b0faaf9b600c96432e2487515e878
+DEBUG : 2021-01-21 16:48:24 : 
+INFO : 2021-01-21 16:48:24 : In directory: /home1/07088/tg863871/repositories/CESM2/components/pop/externals/MARBL
+execute_subprocess running command:
+INFO : 2021-01-21 16:48:24 : git checkout --quiet marbl0.39.1
+DEBUG : 2021-01-21 16:48:24 : 
+INFO : 2021-01-21 16:48:24 : 
+INFO : 2021-01-21 16:48:24 : 
+INFO : 2021-01-21 16:48:24 : checkout_externals completed without exceptions.
