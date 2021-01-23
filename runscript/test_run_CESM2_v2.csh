@@ -7,14 +7,14 @@ set run_time       = 01:50:00
 set queue          = normal
 set account        = ATM20009
 set run_start_date = "2003-01-02"
-set pcount         = 1024
+set pcount         = 896
 
 ## ====================================================================
 #   define case
 ## ====================================================================
 
 setenv CCSMTAG     CESM2
-setenv CASE        CESM2_test_default6
+setenv CASE        CESM2_test_default7
 setenv CASESET     HIST_CAM%SPCAMS_CLM50%SP_CICE%PRES_DOCN%DOM_RTM_SGLC_SWAV
 #setenv CASESET     B1850
 #setenv CASERES     f19_g17
@@ -65,12 +65,17 @@ cd $CCSMROOT/cime/scripts
 
 cd  $CASEROOT
 
-#xmlchange --file env_batch.xml --id JOB_QUEUE --val $queue
-#xmlchange --file env_workflow.xml --id JOB_WALLCLOCK_TIME --val $run_time
-#xmlchange --file env_run.xml --id RUN_STARTDATE --val $run_start_date
+xmlchange --file env_batch.xml --id JOB_QUEUE --val $queue
+xmlchange --file env_workflow.xml --id JOB_WALLCLOCK_TIME --val $run_time
+xmlchange --file env_run.xml --id RUN_STARTDATE --val $run_start_date
 xmlchange --file env_run.xml --id STOP_N --val 50
-#xmlchange --file env_run.xml --id run_data_archive --val "FALSE"
-#xmlchange --file env_run.xml --id RESUBMIT --val 4
+xmlchange --file env_run.xml --id run_data_archive --val "FALSE"
+xmlchange --file env_run.xml --id RESUBMIT --val 4
+
+cat <<EOF >! user_nl_cam
+npr_yz = 32,4,4,32
+/
+EOF
 
 ./case.setup
 ./case.build
